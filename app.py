@@ -1,11 +1,3 @@
-"""
-app.py — CLI for the GenAI Document Q&A tool.
-
-Usage:
-    python app.py --docs ./sample_docs --ask "What is covered in Phase 3?"
-    python app.py --docs ./sample_docs            # interactive mode
-"""
-
 import argparse
 import sys
 
