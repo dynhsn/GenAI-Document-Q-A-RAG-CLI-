@@ -39,15 +39,12 @@ anything else.
 - **Swappable retriever** — `DocumentStore.retrieve()` is isolated, so it's
   a one-line swap to a real embedding model (e.g. Voyage AI, OpenAI
   embeddings) or a vector DB (Pinecone, Chroma) later.
+  
+  - ---
 
-## Possible extensions
-- Swap TF-IDF for semantic embeddings
-- Add PDF/docx ingestion
-- Stream responses
-- Add a simple Flask API wrapper (`POST /ask`) to expose it as a service
+## Author
 
-## Resume bullet
-> Built a RAG-based document Q&A CLI in Python using the Anthropic Claude
-> API — implemented chunking, TF-IDF retrieval, and grounded prompt
-> construction to answer questions over custom document sets with source
-> citations.
+**Dayyan Hasan**
+- **LinkedIn:** [Dayyan Hasan](https://www.linkedin.com/in/dayyanhasan57)
+- **Medium:** [Dayyan Hasan](https://medium.com/@dayyanhasan)
+- **GitHub:** [Dayyan Hasan](https://github.com/dynhsn)
