@@ -1,17 +1,3 @@
-"""
-rag.py — Retrieval-Augmented Generation core.
-
-Pipeline:
-  1. Load .txt/.md files from a folder.
-  2. Split each file into overlapping chunks.
-  3. Vectorize all chunks with TF-IDF.
-  4. On a query, retrieve the top-k most relevant chunks (cosine similarity).
-  5. Stuff those chunks into a prompt and ask Claude to answer, citing sources.
-
-Deliberately dependency-light (scikit-learn + numpy only) so it's easy to
-read, run, and explain in an interview.
-"""
-
 import os
 import glob
 from dataclasses import dataclass
